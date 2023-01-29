@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="src.RoadStatistics"
+  DTS:DTSID="{D032AB51-0A73-424E-97CF-979C2B6EDD0D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\EDW;Initial Catalog=RoadStatistics;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{D032AB51-0A73-424E-97CF-979C2B6EDD0D}.\EDW.RoadStatistics;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
