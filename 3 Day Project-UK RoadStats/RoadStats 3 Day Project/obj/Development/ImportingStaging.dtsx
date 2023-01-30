@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="77"
-  DTS:VersionGUID="{CBAC874C-630F-4344-A357-3F7E0EF3AF16}">
+  DTS:VersionBuild="85"
+  DTS:VersionGUID="{6E96466C-2682-4C5F-86E0-11A97AD0E08D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5823,7 +5823,9 @@ FROM [RoadStatistics].[stg].[TrafficStats]</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -5909,6 +5911,10 @@ FROM [RoadStatistics].[stg].[TrafficStats]</property>
           Id="Package\Dimensions\Dim hour\Mart UK Stats"
           TopLeft="246,86" />
         <NodeLayout
+          Size="138,42"
+          Id="Package\Dimensions\Dim hour\errdim_hour"
+          TopLeft="637,291" />
+        <NodeLayout
           Size="119,42"
           Id="Package\Dimensions\Dim hour\dimhour"
           TopLeft="449,187" />
@@ -5943,13 +5949,11 @@ FROM [RoadStatistics].[stg].[TrafficStats]</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="138,42"
-          Id="Package\Dimensions\Dim hour\errdim_hour"
-          TopLeft="637,291" />
         <EdgeLayout
           Id="Package\Dimensions\Dim hour.Paths[OLE DB Destination Error Output]"
           TopLeft="508.5,229">
@@ -6162,6 +6166,10 @@ FROM [RoadStatistics].[stg].[TrafficStats]</property>
           Size="161,42"
           Id="Package\Dimensions\Dim Road Category\dimroadcategory"
           TopLeft="451,203" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Dimensions\Dim Road Category\errdim_category"
+          TopLeft="711,300" />
         <EdgeLayout
           Id="Package\Dimensions\Dim Road Category.Paths[OLE DB Source Output]"
           TopLeft="332.5,142">
@@ -6196,10 +6204,6 @@ FROM [RoadStatistics].[stg].[TrafficStats]</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Dimensions\Dim Road Category\errdim_category"
-          TopLeft="711,300" />
         <EdgeLayout
           Id="Package\Dimensions\Dim Road Category.Paths[OLE DB Destination Error Output]"
           TopLeft="531.5,245">
