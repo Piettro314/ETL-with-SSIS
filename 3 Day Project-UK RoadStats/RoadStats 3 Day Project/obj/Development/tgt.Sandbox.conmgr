@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="tgt.Sandbox"
+  DTS:DTSID="{A3BFE48D-404E-4BF4-8D13-A5ED13A92A2F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\EDW;Initial Catalog=Sandbox;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{A3BFE48D-404E-4BF4-8D13-A5ED13A92A2F}.\EDW.Sandbox;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
