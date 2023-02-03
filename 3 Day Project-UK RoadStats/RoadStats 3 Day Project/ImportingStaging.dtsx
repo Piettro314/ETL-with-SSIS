@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="85"
-  DTS:VersionGUID="{6E96466C-2682-4C5F-86E0-11A97AD0E08D}">
+  DTS:VersionBuild="86"
+  DTS:VersionGUID="{327563EF-E5F3-4A29-9B88-549916507818}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -3036,7 +3036,6 @@ Order by 1</property>
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:DelayValidation="True"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{7F6F5480-F15D-4BE9-BE3D-380A4548BE2E}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
@@ -3872,7 +3871,6 @@ FROM [RoadStatistics].[stg].[TrafficStats] t
       DTS:refId="Package\Loading Staging"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{1B9BCB40-C994-46DB-B4D0-6C57E4AA2BF1}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"

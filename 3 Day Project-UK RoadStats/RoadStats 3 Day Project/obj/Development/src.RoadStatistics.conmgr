@@ -7,6 +7,6 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=.\EDW;Initial Catalog=RoadStatistics;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{D032AB51-0A73-424E-97CF-979C2B6EDD0D}.\EDW.RoadStatistics;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=.\EDW;Initial Catalog=RoadStatistics;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{D032AB51-0A73-424E-97CF-979C2B6EDD0D}.\EDW.RoadStatistics;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>
